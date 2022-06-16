@@ -21,7 +21,13 @@ buildscript {
 
     }
 }
-
+//allprojects {
+//    addRepos(repositories)
+//
+//    tasks.withType(org.jetbrains.kotlin.gradle.tasks.AbstractKotlinCompile).all {
+//        kotlinOptions.freeCompilerArgs += ["-Xuse-experimental=kotlinx.coroutines.ExperimentalCoroutinesApi"]
+//    }
+//}
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

@@ -16,6 +16,6 @@ abstract class RepositoryModule {
     @Binds
     abstract fun bindLottoSearchRepository(
         lottoSearchRepositoryImpl: LottoSearchRepositoryImpl
-    ):LottoSearchRepository
+    ): LottoSearchRepository
 
 }

@@ -1,0 +1,7 @@
+// repository
+def static addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.mavenCentral()
+}
+
+ext.addRepos = this.&addRepos
